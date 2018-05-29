@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/d/Documents/CLionProjects/Lab2/Dealership.cpp" "/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Dealership.cpp.o"
-  "/cygdrive/d/Documents/CLionProjects/Lab2/Showroom.cpp" "/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Showroom.cpp.o"
-  "/cygdrive/d/Documents/CLionProjects/Lab2/Vehicle.cpp" "/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Vehicle.cpp.o"
-  "/cygdrive/d/Documents/CLionProjects/Lab2/main.cpp" "/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/main.cpp.o"
+  "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Dealership.cpp.o"
+  "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Showroom.cpp.o"
+  "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Vehicle.cpp.o"
+  "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/main.cpp" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

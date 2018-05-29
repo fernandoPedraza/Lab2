@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/cygdrive/c/Users/PEDRAZA'S PC/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe"
+CMAKE_COMMAND = "/cygdrive/c/Users/Pedraza Laptop/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe"
 
 # The command to remove a file.
-RM = "/cygdrive/c/Users/PEDRAZA'S PC/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe" -E remove -f
+RM = "/cygdrive/c/Users/Pedraza Laptop/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/Documents/CLionProjects/Lab2
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Lab2.dir/flags.make
 
 CMakeFiles/Lab2.dir/main.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/main.cpp.o -c /cygdrive/d/Documents/CLionProjects/Lab2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/main.cpp.o -c "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/main.cpp"
 
 CMakeFiles/Lab2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/CLionProjects/Lab2/main.cpp > CMakeFiles/Lab2.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/main.cpp" > CMakeFiles/Lab2.dir/main.cpp.i
 
 CMakeFiles/Lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/CLionProjects/Lab2/main.cpp -o CMakeFiles/Lab2.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/main.cpp" -o CMakeFiles/Lab2.dir/main.cpp.s
 
 CMakeFiles/Lab2.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Lab2.dir/main.cpp.o.provides.build: CMakeFiles/Lab2.dir/main.cpp.o
 
 CMakeFiles/Lab2.dir/Dealership.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/Dealership.cpp.o: ../Dealership.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/Dealership.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Dealership.cpp.o -c /cygdrive/d/Documents/CLionProjects/Lab2/Dealership.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/Dealership.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Dealership.cpp.o -c "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp"
 
 CMakeFiles/Lab2.dir/Dealership.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Dealership.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/CLionProjects/Lab2/Dealership.cpp > CMakeFiles/Lab2.dir/Dealership.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp" > CMakeFiles/Lab2.dir/Dealership.cpp.i
 
 CMakeFiles/Lab2.dir/Dealership.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Dealership.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/CLionProjects/Lab2/Dealership.cpp -o CMakeFiles/Lab2.dir/Dealership.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp" -o CMakeFiles/Lab2.dir/Dealership.cpp.s
 
 CMakeFiles/Lab2.dir/Dealership.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Lab2.dir/Dealership.cpp.o.provides.build: CMakeFiles/Lab2.dir/Dealers
 
 CMakeFiles/Lab2.dir/Showroom.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/Showroom.cpp.o: ../Showroom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/Showroom.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Showroom.cpp.o -c /cygdrive/d/Documents/CLionProjects/Lab2/Showroom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/Showroom.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Showroom.cpp.o -c "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp"
 
 CMakeFiles/Lab2.dir/Showroom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Showroom.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/CLionProjects/Lab2/Showroom.cpp > CMakeFiles/Lab2.dir/Showroom.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp" > CMakeFiles/Lab2.dir/Showroom.cpp.i
 
 CMakeFiles/Lab2.dir/Showroom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Showroom.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/CLionProjects/Lab2/Showroom.cpp -o CMakeFiles/Lab2.dir/Showroom.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp" -o CMakeFiles/Lab2.dir/Showroom.cpp.s
 
 CMakeFiles/Lab2.dir/Showroom.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Lab2.dir/Showroom.cpp.o.provides.build: CMakeFiles/Lab2.dir/Showroom.
 
 CMakeFiles/Lab2.dir/Vehicle.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/Vehicle.cpp.o: ../Vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.dir/Vehicle.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Vehicle.cpp.o -c /cygdrive/d/Documents/CLionProjects/Lab2/Vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.dir/Vehicle.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Vehicle.cpp.o -c "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp"
 
 CMakeFiles/Lab2.dir/Vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Vehicle.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/CLionProjects/Lab2/Vehicle.cpp > CMakeFiles/Lab2.dir/Vehicle.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp" > CMakeFiles/Lab2.dir/Vehicle.cpp.i
 
 CMakeFiles/Lab2.dir/Vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Vehicle.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/CLionProjects/Lab2/Vehicle.cpp -o CMakeFiles/Lab2.dir/Vehicle.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp" -o CMakeFiles/Lab2.dir/Vehicle.cpp.s
 
 CMakeFiles/Lab2.dir/Vehicle.cpp.o.requires:
 
@@ -169,7 +169,7 @@ Lab2.exe: CMakeFiles/Lab2.dir/Showroom.cpp.o
 Lab2.exe: CMakeFiles/Lab2.dir/Vehicle.cpp.o
 Lab2.exe: CMakeFiles/Lab2.dir/build.make
 Lab2.exe: CMakeFiles/Lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/Lab2.dir/clean:
 .PHONY : CMakeFiles/Lab2.dir/clean
 
 CMakeFiles/Lab2.dir/depend:
-	cd /cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Documents/CLionProjects/Lab2 /cygdrive/d/Documents/CLionProjects/Lab2 /cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug /cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug /cygdrive/d/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug" "/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Lab2.dir/depend
 
