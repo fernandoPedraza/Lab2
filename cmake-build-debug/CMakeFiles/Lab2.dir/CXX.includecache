@@ -13,10 +13,20 @@ Dealership.h
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp
+iostream
+-
+limits
+-
+memory
+-
 Showroom.h
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
+iostream
+-
+Vehicle.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.h
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp
 string

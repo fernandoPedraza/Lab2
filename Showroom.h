@@ -20,7 +20,7 @@ public:
     void AddVehicle(const Vehicle *v);
     void ShowInventory() const;
 
-    const Vehicle *GetVehicle() const;
+    const Vehicle *GetVehicleList() const;
     unsigned int GetCapacity() const;
     unsigned int GetCount() const;
     const char * GetName() const ;

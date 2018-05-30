@@ -34,7 +34,9 @@ void Showroom::ShowInventory() const{
     };
 };
 
-const Vehicle *GetVehicle() const;
+const Vehicle *GetVehicleList() const{
+
+};
 
 unsigned int Showroom::GetCapacity() const{
     return getMax();
@@ -44,5 +46,5 @@ unsigned int Showroom::GetCount() const{
     return count;
 };
 const char * Showroom::GetName() const {
-    return
+
 };
