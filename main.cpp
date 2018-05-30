@@ -39,3 +39,7 @@ int main()
     dealerShip.ShowInventory();
 
     cout << endl << "Calling destructors..." << endl;
+
+
+return 0;
+}

@@ -9,15 +9,24 @@ using namespace std;
 class Vehicle {
 private:
     string make, model ;
-    int year ,price ,  miles ;
+    int year ,  miles ;
+    float price;
 
 public:
-    Vehicle(string make , string model , int year , int price , int miles);
-    string getMake();
-    string getModel();
-    int getYear();
-    int getPrice();
-    int getMiles();
+    Vehicle(){};
+    Vehicle(string make , string model , int year , float price , int miles);
+    ~Vehicle(){
+    }
+
+    string getMake() const;
+    string getModel()const;
+    int getYear()const;
+    float getPrice()const;
+    int getMiles()const;
+
+    void Display() const;
+    string GetYearMakeModel() const;
+    float GetPrice() const;
 
 };
 

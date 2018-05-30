@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp
+Dealership.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp
+Showroom.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.cpp
+string
+-
+Vehicle.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.h
+iostream
+-
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.h
+string
+-
+
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/main.cpp
+Vehicle.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Vehicle.h
+Showroom.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
+Dealership.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
+iostream
+-
+limits
+-
+memory
+-
+
