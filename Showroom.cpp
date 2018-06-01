@@ -5,7 +5,7 @@ using namespace std;
 #include <cstring>
 #include "Showroom.h"
 
-
+Showroom::Showroom() {}
 Showroom::Showroom(string name, int max){
     this->count=0;
     this->name=name;
@@ -49,4 +49,7 @@ unsigned int Showroom::GetCount() const{
 const char * Showroom::GetName() const {
 
    return Showroom::name.c_str();
-};
+}
+Showroom::~Showroom(){
+    cout<< Showroom::getName()<<" destructor called"<<endl;
+}

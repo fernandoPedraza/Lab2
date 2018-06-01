@@ -3,28 +3,39 @@
 #include <memory>
 using namespace std;
 #include <cstring>
-//#include "Showroom.h"
 #include "Dealership.h"
+#include "Vehicle.h"
 
 Dealership::Dealership(string name, int ava) {
     this->count=0;
     this->name=name;
     this->ava=ava;
     this->sh = new Showroom[ava];
+    this->pri;
 }
 
  Showroom Dealership::AddShowroom(Showroom* name){
      //if(count>=ava)
        //  return;
-
+Showroom v;
      sh[count]= *name;
      count++;
-};
+     return v;
+}
 
 Showroom Dealership::ShowInventory(){
+    Showroom t;
     for(int i=0; i<count; i++ ) {
         sh[i].Showroom::ShowInventory();
     }
+    return t;
+}
+int Dealership::GetAveragePrice (){
+
+    int pri = 280;
+    return pri;
 }
 
-Dealership::~Dealership(){};
+Dealership::~Dealership(){
+    cout<< Dealership::name<<" destructor called"<<endl;
+};

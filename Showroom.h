@@ -13,7 +13,9 @@ private:
     int count=0;
 
 public:
+    Showroom();
     Showroom(string name, int max);
+    ~Showroom();
     string getName() const;
     int getMax() const;
 
