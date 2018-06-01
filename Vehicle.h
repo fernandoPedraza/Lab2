@@ -13,10 +13,9 @@ private:
     float price;
 
 public:
-    Vehicle(){};
+    Vehicle();
     Vehicle(string make , string model , int year , float price , int miles);
-    ~Vehicle(){
-    }
+    ~Vehicle();
 
     string getMake() const;
     string getModel()const;

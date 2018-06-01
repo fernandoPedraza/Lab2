@@ -13,14 +13,14 @@ private:
     int count=0;
 
 public:
-    Showroom Showroom(string name, int max);
+    Showroom(string name, int max);
     string getName() const;
     int getMax() const;
 
     void AddVehicle(const Vehicle *v);
     void ShowInventory() const;
 
-    const Vehicle *GetVehicleList() const;
+    const Vehicle* GetVehicleList() const;
     unsigned int GetCapacity() const;
     unsigned int GetCount() const;
     const char * GetName() const ;

@@ -2,7 +2,7 @@
 #include <limits>
 #include <memory>
 using namespace std;
-
+#include <cstring>
 #include "Showroom.h"
 
 
@@ -15,6 +15,7 @@ Showroom::Showroom(string name, int max){
 
 string Showroom::getName() const{
     return this->name;
+
 }
 int Showroom::getMax()const{
     return this->max;
@@ -34,8 +35,8 @@ void Showroom::ShowInventory() const{
     };
 };
 
-const Vehicle *GetVehicleList() const{
-
+const Vehicle* Showroom::GetVehicleList() const{
+    return ve;
 };
 
 unsigned int Showroom::GetCapacity() const{
@@ -47,4 +48,5 @@ unsigned int Showroom::GetCount() const{
 };
 const char * Showroom::GetName() const {
 
+   return Showroom::name.c_str();
 };

@@ -7,10 +7,30 @@
 #IncludeRegexTransform: 
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.cpp
+iostream
+-
+limits
+-
+memory
+-
+cstring
+-
+Showroom.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
 Dealership.h
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Dealership.h
+iostream
+-
+limits
+-
+memory
+-
+cstring
+-
+Showroom.h
+/cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h
 
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.cpp
 iostream
@@ -18,6 +38,8 @@ iostream
 limits
 -
 memory
+-
+cstring
 -
 Showroom.h
 /cygdrive/c/Users/Pedraza Laptop/Documents/CLionProjects/Lab2/Showroom.h

@@ -6,7 +6,7 @@ using namespace std;
 
 // Created by PEDRAZA'S PC on 5/29/2018.
 //
-
+Vehicle::Vehicle() {}
 Vehicle::Vehicle(string make, string model, int year, float price, int miles) {
 
     this->make=make;
@@ -47,6 +47,4 @@ float Vehicle::GetPrice() const{
     return getPrice();
 
 };
-~Vehicle(){
-
-}
+Vehicle::~Vehicle(){};

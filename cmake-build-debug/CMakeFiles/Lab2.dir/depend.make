@@ -3,6 +3,8 @@
 
 CMakeFiles/Lab2.dir/Dealership.cpp.o: ../Dealership.cpp
 CMakeFiles/Lab2.dir/Dealership.cpp.o: ../Dealership.h
+CMakeFiles/Lab2.dir/Dealership.cpp.o: ../Showroom.h
+CMakeFiles/Lab2.dir/Dealership.cpp.o: ../Vehicle.h
 
 CMakeFiles/Lab2.dir/Showroom.cpp.o: ../Showroom.cpp
 CMakeFiles/Lab2.dir/Showroom.cpp.o: ../Showroom.h
