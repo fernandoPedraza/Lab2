@@ -30,10 +30,9 @@ Showroom Dealership::ShowInventory(){
     }
     return t;
 }
-int Dealership::GetAveragePrice (){
+void Dealership::GetAveragePrice (){
 
-    int pri = 280;
-    return pri;
+    //Vehicle::getAvAlt();
 }
 
 Dealership::~Dealership(){

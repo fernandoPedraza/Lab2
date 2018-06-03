@@ -4,6 +4,7 @@
 using namespace std;
 #include <cstring>
 #include "Showroom.h"
+#include "Vehicle.h"
 
 Showroom::Showroom() {}
 Showroom::Showroom(string name, int max){
@@ -11,6 +12,8 @@ Showroom::Showroom(string name, int max){
     this->name=name;
     this->max=max;
     this->ve = new Vehicle[max];
+    this->averager=0;
+    this->counterAv=0;
 };
 
 string Showroom::getName() const{
@@ -49,6 +52,13 @@ unsigned int Showroom::GetCount() const{
 const char * Showroom::GetName() const {
 
    return Showroom::name.c_str();
+}
+void Showroom::getAvAlt(){
+    for(int i=0; i<count; i++ ){
+        averager=averager+ve[i].getPrice();
+        counterAv=i;
+    };
+    cout<<"Average car price "<<averager/counterAv;
 }
 Showroom::~Showroom(){
     cout<< Showroom::getName()<<" destructor called"<<endl;

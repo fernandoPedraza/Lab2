@@ -7,7 +7,7 @@
 using namespace std;
 
 int main()
-{
+{   Vehicle veh;
     // Initialize some data. It's hard-coded here, but this data could come from a file, database, etc
     Vehicle vehicles[] =
             {
@@ -18,12 +18,14 @@ int main()
                     Vehicle("Toyota", "Prius", 2015, 17819, 22987),
                     Vehicle("Nissan", "Leaf", 2016, 12999, 16889),
                     Vehicle("Chevrolet", "Volt", 2015, 16994, 12558),
+
             };
 
     // Showrooms to store the vehicles
     Showroom showroom("Primary Showroom", 3);
     showroom.AddVehicle(&vehicles[0]);
     showroom.AddVehicle(&vehicles[1]);
+    showroom.getAvAlt();
 
     Showroom secondary("Fuel-Efficient Showroom", 4);
     secondary.AddVehicle(&vehicles[3]);
@@ -37,6 +39,7 @@ int main()
     dealerShip.AddShowroom(&secondary);
 
     dealerShip.ShowInventory();
+
 
     cout << endl << "Calling destructors..." << endl;
 

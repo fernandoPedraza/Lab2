@@ -11,6 +11,8 @@ private:
     Vehicle* ve;
     int max;
     int count=0;
+    int averager;
+    int counterAv;
 
 public:
     Showroom();
@@ -18,6 +20,8 @@ public:
     ~Showroom();
     string getName() const;
     int getMax() const;
+
+    void getAvAlt();
 
     void AddVehicle(const Vehicle *v);
     void ShowInventory() const;

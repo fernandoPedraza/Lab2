@@ -4,6 +4,7 @@
 using namespace std;
 #include <cstring>
 #include "Showroom.h"
+#include "Vehicle.h"
 
 #ifndef LAB2_DEALERSHIP_H
 #define LAB2_DEALERSHIP_H
@@ -21,13 +22,10 @@ public:
     Dealership(string name , int ava );
     ~Dealership();
 
-    int GetAveragePrice ();
-
+    void GetAveragePrice ();
 
     Showroom AddShowroom(Showroom* name);
     Showroom ShowInventory();
 
 };
-
-
 #endif //LAB2_DEALERSHIP_H
